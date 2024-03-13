@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './Navbar';
 import './App.css';
-import Home from './components/pages/Home';
+import Home from './Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Projects from './components/pages/Projects';
-import Resume from './components/pages/Resume';
-import About from './components/pages/About';
-import Other from './components/pages/other';
+import Projects from './Projects';
+import Resume from './Resume';
+import About from './About';
+import Other from './other';
 
 function App() {
   return (
