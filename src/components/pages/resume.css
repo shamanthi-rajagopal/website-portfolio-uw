@@ -1,0 +1,158 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150vh; /* Adjust as needed */
+  }
+  
+  .resume-title {
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .resume-text {
+    font-size: 16px;
+    margin-top: -120px; /* Adjust the margin-top as needed */
+    text-align: center;
+  }
+  
+  .resume-box {
+    position: relative; /* Set position to relative */
+    top: -200px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 70px 10px 25px; /* Adjust the margins */
+    max-width: 100%; /* Allow boxes to shrink */
+    width: 600px; /* Set a default width */
+    top: -250px;
+  }
+
+  .grey-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add space between the boxes */
+    margin-top: -200px; /* Adjust the top margin */
+    position: relative;
+    top: -50px;
+
+}
+.grey-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add space between the boxes */
+    margin-top: -200px; /* Adjust the top margin */
+    position: relative;
+    top: 140px;
+}
+  
+  .grey-box {
+    background-color:  #f9fcfe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 550px; /* Adjust the width for a 2x2 arrangement */
+    height: 180px; /* Adjust the height for a 2x2 arrangement */
+    position:relative;
+    left: 10px;
+  }
+
+  .box{
+    font-size: 35px;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+  }
+
+  .tiny{
+    font-size: 15px;
+    font-family: "Noto Sans KR", sans-serif;/*font-family: "Teko", sans-serif;*/
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+  }
+
+  .tinyH{
+    text-align: center;
+    font-size: 15px;
+    font-family: "Noto Sans KR", sans-serif;/*font-family: "Teko", sans-serif;*/
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .bold-text{
+    font-weight:500;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 650px) {
+    .resume {
+      flex-direction: column; /* Change layout to row */
+      flex-wrap: wrap; /* Allow boxes to wrap to the next line */
+      align-items: flex-start; /* Align items at the top */
+      height: 180vh;
+    }
+  
+    .resume-box {
+      width: 400px; /* Adjust the width as needed for smaller screens */
+      height: 150px;
+      margin: 20px; /* Adjust margin for smaller screens */
+      margin-left: 50px;
+    }
+
+    .grey-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start; /* Align items at the start */
+        margin-left: 40px;
+    }
+
+    .grey-container1 {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start; /* Align items at the start */
+        margin-left: 40px;
+    }
+    
+      .grey-box {
+        height: 150px;
+        width: 400px; /* Adjust the width for smaller screens */
+        margin-right: 20px; /* Adjust the right margin */
+        margin-bottom: 20px; /* Add bottom margin to separate boxes */
+      }
+  
+      .tiny{
+        text-align: left;
+        font-size: 11px;
+        font-family: "Noto Sans KR", sans-serif;/*font-family: "Teko", sans-serif;*/
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+      }
+    
+      .tinyH{
+        text-align: center;
+        font-size: 11px;
+        font-family: "Noto Sans KR", sans-serif;/*font-family: "Teko", sans-serif;*/
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+      }
+
+      .box{
+        font-size: 25px;
+        font-family: "Teko", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+      }
+  
+    }

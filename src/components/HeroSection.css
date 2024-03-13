@@ -1,0 +1,241 @@
+
+.home{
+  background-color: #f9fcfe;
+}
+
+.vid {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+  
+  .hero-container {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    background-image: url('/public/images/sky9.png');
+  background-size: cover;
+  background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-bottom: 10px;
+    
+  }
+  
+  .hero-container > h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: -100px;
+  }
+  
+  .hero-container > h5 {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .hero-btns {
+    margin-top: 32px;
+  }
+  
+  .hero-btns .btn {
+    margin: 6px;
+  }
+  
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+  
+  .white_box{
+    
+    background-color: rgb(241, 248, 255); /* Set background color to white */
+    width: 1000px; /* Set width */
+    height: 500px; /* Set height */
+    padding: 10px; /* Add padding */
+    border: 0px solid #000; /* Add border */
+    border-radius: 0px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    transform: translate(0%, 0%);
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 1.5s ease-in forwards; /* Fade in animation */
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    
+  }
+
+  .left {
+    flex: 1; /* Take up 50% of the width */
+    background-image: url('/public/images/sham_eng.jpg'); /* Replace with your image path */
+    background-size: cover;
+    width: 100%; /* Set image width to 100% for responsiveness */
+    height: auto; /* Ensure aspect ratio is maintained */
+    border: 5px solid  rgb(241, 248, 255); /* Add a white border around the image */
+    border-radius: 5px; /* Add border radius for rounded corners */
+  }
+  
+  .right {
+    flex: 1; /* Take up 50% of the width */
+  padding: 75px;
+
+  }
+
+  
+  .right h1 {
+    font-size: 30px; /* Adjust the font size for p */
+    text-align:center;
+    position: relative;
+    top: -30px;
+    font-weight: 500;
+
+  }
+
+  .right h5 {
+    font-size: 18px; /* Adjust the font size for p */
+    text-align:center;
+    font-weight:300;
+  }
+
+  .right h2 {
+    font-size: 15px; /* Adjust the font size for p */
+    font-weight:bold;
+  }
+
+  .right p {
+    font-size: 15px; /* Adjust the font size for p */
+    text-align:center;
+    font-weight:100;
+  }
+
+  .right a {
+    font-size: 15px; /* Adjust the font size for p */
+    text-align:center;
+    color:Black;
+    font-weight:100;
+
+
+  }
+  .right a:hover {
+    font-size: 15px; /* Adjust the font size for p */
+    text-align:center;
+    color:hsl(212, 68%, 61%);
+    font-weight:100;
+  }
+
+  .btns{
+    position: relative;
+    top: -15px;
+    background-color: transparent;
+    color: white;
+    padding: 10px 100px;
+    border: 3px solid white;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+
+  .btns1{
+    position: relative;
+    top: -15px;
+    left: 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 10px 100px;
+    border: 3px solid white;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+
+  .btns:hover, .btns1:hover{
+    background:white;
+    color:#242424;
+    transition: all 0.3s ease-out;
+  }
+
+  @media screen and (max-width: 960px) {
+    .hero-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+  }
+  
+  @media screen and (max-width: 960px) {
+    .hero-container > h1 {
+      font-size: 50px;
+      margin-top: -100px;
+    }
+  
+    .hero-container > p {
+      font-size: 30px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    .white_box {
+      width: 90%; /* Adjust width for smaller screens */
+    }
+  
+    .left,
+    .right {
+      width: 100%; /* Set width to 100% for stacking */
+      padding: 100px 0; /* Adjust padding */
+    }
+  
+    .left {
+      width: auto; /* Set image width to 100% for responsiveness */
+      height: auto; /* Ensure aspect ratio is maintained */
+      padding: 50px;
+    }
+
+    .right h5,
+    .right h1,
+    .right p,
+    .right a,
+    .right h2,
+    .right a:hover {
+      font-size: 11px; /* Adjust the font size for p */
+      text-align:center;
+      /*font-weight:300;*/
+    }
+
+    .right a {
+      font-size: 9px; /* Adjust the font size for p */
+      text-align:center;
+      margin-left: 10px;
+      /*font-weight:300;*/
+    }
+
+ 
+  
+  }
+
+
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
