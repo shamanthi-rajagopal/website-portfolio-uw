@@ -30,9 +30,7 @@ function About() {
                <p className='about-smalltext'>(Check out my RESUME or LinkedIn to track my coop journey)</p>
       
       <div className='image-container'>
-      <img className= 'about-img-1' src='images/robo.jpg'></img> 
       <img className= 'about-img-2' src='images/waterloo.jpg'></img> 
-      <img className= 'about-img-3' src='images/uweng2.jpg'></img> 
       </div>
       <div className='about'></div>
 

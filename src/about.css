@@ -73,17 +73,16 @@ html{
     transform: rotate(-5deg); /* Rotate the image slightly */
   }
 
-  .about-img-2{
-    background-color:   #f5fafe;
+  .about-img-2 {
+    background-color: #f5fafe;
     margin-top: 100px;
-    margin-left: 175px;
     align-items: center;
     width: 400px;
     height: 300px;
     display: block;
-    border: 10px solid #fff; /* White border */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); /* Add a shadow */
-    transform: rotate(0deg); /* Rotate the image slightly */
+    border: 10px solid #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    transform: rotate(0deg);
   }
 
   .about-img-3{
@@ -118,5 +117,7 @@ html{
   }
 
   .image-container {
+    justify-content: center;
     display: flex;
+    align-items: center;
 }

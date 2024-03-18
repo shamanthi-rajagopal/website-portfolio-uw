@@ -16,7 +16,7 @@
     background-image: url('/public/images/sky9.png');
   background-size: cover;
   background-position: center;
-    height: 100vh;
+    height: 108vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -192,20 +192,25 @@
 
   @media screen and (max-width: 960px) {
     .white_box {
-      width: 90%; /* Adjust width for smaller screens */
+      width: 95%; /* Adjust width for smaller screens */
+      height: auto;
     }
   
     .left,
     .right {
       width: 100%; /* Set width to 100% for stacking */
-      padding: 100px 0; /* Adjust padding */
+      padding: 100px 0px; /* Adjust padding */
     }
   
     .left {
+      flex: 1;
       width: auto; /* Set image width to 100% for responsiveness */
       height: auto; /* Ensure aspect ratio is maintained */
-      padding: 50px;
+      padding: 100px;
+      background-size:cover;
+
     }
+
 
     .right h5,
     .right h1,
@@ -213,7 +218,7 @@
     .right a,
     .right h2,
     .right a:hover {
-      font-size: 11px; /* Adjust the font size for p */
+      font-size: 10px; /* Adjust the font size for p */
       text-align:center;
       /*font-weight:300;*/
     }
@@ -224,7 +229,6 @@
       margin-left: 10px;
       /*font-weight:300;*/
     }
-
  
   
   }
@@ -239,3 +243,13 @@
       opacity: 1;
     }
   }
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .btns,
+  .btns1 {
+    font-size: 15px; /* Decrease font size */
+    padding: 6px 20px; /* Adjust padding */
+  }
+}
