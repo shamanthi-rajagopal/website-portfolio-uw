@@ -141,10 +141,10 @@
     display: flex;
     font-size: 10px;
     align-items: center;
-    margin-left: -650px;
+    margin-left: -120px;
     position: relative;
     font-weight:400;
-    top: 40px
+    top: 30px
   }
 
   .social-icon-link .fa-envelope {

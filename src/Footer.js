@@ -11,15 +11,20 @@ function Footer() {
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-          <small class='website-rights'>Shamanthi Rajagopal © 2024</small>
+          <small class='website-rights'> </small>
           </div>
         </div>
       </div>
       <section class='social-media'>
+        
+ 
+
         <div class='social-media-wrap'>
           <div class='footer-logo'>
           </div>
          
+          
+
           <div class='social-icons'>
           <Link
             className='social-icon-link envelope'

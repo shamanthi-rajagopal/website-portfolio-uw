@@ -218,7 +218,7 @@
     .right a,
     .right h2,
     .right a:hover {
-      font-size: 10px; /* Adjust the font size for p */
+      font-size: 12px; /* Adjust the font size for p */
       text-align:center;
       /*font-weight:300;*/
     }
@@ -251,5 +251,20 @@
   .btns1 {
     font-size: 15px; /* Decrease font size */
     padding: 6px 20px; /* Adjust padding */
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .right a,
+  .right h2,
+  .right a:hover {
+    font-size: 0; /* Set font size to 0 */
+    text-align: center;
+    /*font-weight:300;*/
+  }
+
+  .right a {
+    display: none; /* Hide the links */
   }
 }

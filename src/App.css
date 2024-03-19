@@ -45,7 +45,7 @@ html{
   }
   
   .about {
-    background-color:#fefaf5;
+    background-color:#ffffff;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ html{
   background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color:#dfefff;
+    background-color:#ebf5ff;
     color: rgb(0, 16, 26);
     font-size: 30px;
   }
