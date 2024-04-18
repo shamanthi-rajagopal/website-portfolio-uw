@@ -38,7 +38,7 @@ function Cards() {
 
               label='My Focus Library'
               href= 'https://shamanthi-rajagopal.github.io/MyFocusLibrary.github.io/'
-              href1= 'https://github.com/liaorosemary/TuCanTravel'
+              href1= 'https://github.com/shamanthi-rajagopal/MyFocusLibrary.github.io'
               button ='Web Link'
               button1='GitHub'
             />
