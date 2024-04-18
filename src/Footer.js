@@ -77,6 +77,8 @@ function Footer() {
           </div>
         </div>
       </section>
+      <p className='copyright'> Shamanthi Rajagopal © 2024.</p>
+      <br></br>
     </div>
   );
 }

@@ -167,6 +167,16 @@
     color:rgb(34, 104, 169)
   }
   
+  .copyright{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 5px;
+  }
+
   @media screen and (max-width: 820px) {
     .footer-links {
       padding-top: 2rem;
