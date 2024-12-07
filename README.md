@@ -1,2 +1,2 @@
-# website-portfolio-uw
-Shamanthi Rajagopal's website/portfolio
+# website-portfolio-uw (Version 1)
+Check out my updated website @ https://shamanthi-rajagopal.com/
